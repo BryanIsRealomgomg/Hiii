@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+.doors {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.door {
+  padding: 15px 40px;
+  background-color: gold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.door:hover {
+  background-color: goldenrod;
+}
+
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#reset {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+#reset:hover {
+  background-color: #0056b3;
+}
